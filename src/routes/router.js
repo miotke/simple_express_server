@@ -13,4 +13,8 @@ router.get('/', (req, res) => {
     res.send('hello from router.js');
 });
 
+router.get('/new', (req, res) => { 
+    res.send('Hello from /new');
+});
+
 module.exports = router;
